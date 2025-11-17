@@ -539,6 +539,38 @@ video:hover {
   background: #b88bff;
 }
 
+#close-lock {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+#close-lock span {
+  font-size: 26px;
+  line-height: 1;
+  color: white;
+  pointer-events: none;
+}
+
+#close-lock:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.1);
+}
+
+
+
 /* --- COMMENTAIRES SUPPRIMÉS --- */
 .comment.deleted {
   position: relative;

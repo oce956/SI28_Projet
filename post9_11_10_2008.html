@@ -26,15 +26,30 @@
 
     <main class="wrap">
 
-        <div id="lock-screen">
+        <!-- ÉCRAN DE VERROUILLAGE -->
+          <div id="lock-screen">
+
+            <!-- Bouton pour fermer et revenir à la page précédente -->
+            <button id="close-lock" class="close-button">✕</button>
+
             <div class="lock-box">
-                <h2>Accès administrateur requis</h2>
-                <p>Entrez le mot de passe pour continuer :</p>
-                <input type="password" id="password-input" placeholder="Mot de passe..." />
-                <button id="submit-password">Déverrouiller</button>
-                <p id="error-message" style="display:none; color:#ff5555; margin-top:10px;">Mot de passe incorrect.</p>
+              <h2>Accès administrateur requis</h2>
+              <p>Entrez le mot de passe pour continuer :</p>
+
+              <input 
+                type="password" 
+                id="password-input" 
+                placeholder="Mot de passe..." 
+              />
+
+              <button id="submit-password">Déverrouiller</button>
+
+              <p id="error-message" style="display:none; color:#ff5555; margin-top:10px;">
+                Mot de passe incorrect.
+              </p>
             </div>
-        </div>
+          </div>
+
 
       <!-- Colonne gauche : boîtes pour intérêts / liens -->
       <aside class="sidebar left">
