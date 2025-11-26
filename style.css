@@ -186,6 +186,9 @@ a:hover {
   line-height: 1.6;
 }
 
+.photos {
+  text-align: center;
+}
 
 /* REACTIVITE */
 @media (max-width: 980px) {
