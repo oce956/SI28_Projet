@@ -1,0 +1,62 @@
+body{
+      margin:0;
+      background:#e4dfd4;
+      display:flex;
+      justify-content:center;
+      padding:40px;
+      font-family:'Crimson Text', serif;
+    }
+
+    .paper{
+      width:750px;
+      background:#faf7f2;
+      padding:60px 70px;
+      border:1px solid #d8d2c7;
+      box-shadow:0 0 40px rgba(0,0,0,0.2);
+      position:relative;
+    }
+
+    .paper::before{
+      content:"";
+      position:absolute;
+      top:0;left:0;right:0;bottom:0;
+      background:url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      opacity:0.25;
+      pointer-events:none;
+    }
+
+    h2{
+      margin-top:0;
+      font-size:1.8rem;
+      letter-spacing:1px;
+    }
+
+    p{
+      font-size:1.2rem;
+      line-height:1.65;
+      margin:16px 0;
+    }
+
+    p:first-of-type::first-letter{
+      font-size:3.4rem;
+      float:left;
+      line-height:1;
+      margin-right:12px;
+      font-weight:600;
+    }
+
+    .highlight{
+      padding-left:18px;
+      border-left:3px solid #a1847b;
+      color:#3a3a3a;
+      font-style:italic;
+    }
+
+    .signature{
+      margin-top:40px;
+      font-family:'Great Vibes', cursive;
+      font-size:2.5rem;
+      color:#7e4a4a;
+    }
+
+    .strike{text-decoration:line-through;opacity:0.6;font-size:1.2rem;font-family:'Crimson Text';}
