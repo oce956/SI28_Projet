@@ -60,3 +60,7 @@ body{
     }
 
     .strike{text-decoration:line-through;opacity:0.6;font-size:1.2rem;font-family:'Crimson Text';}
+
+#petit {
+  font-size: 0.8rem;
+}
